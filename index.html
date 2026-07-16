@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Chandra | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Glows -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo"><big>My Portfolio</big></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="status">
+            <div class="status-dot"></div>
+           Online
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div>
+                <div class="tag">📍 Uttar Pradesh, India</div>
+                <h1>Gaurav <span>Chandra</span></h1>
+                <div class="typing-text">
+                    <span id="typed-text"></span><span class="cursor"></span>
+                </div>
+                <p>A passionate BCA 2nd-year student diving deep into cyber security, web pentesting, and software development. Building secure, meaningful things one line of code at a time.</p>
+                <div class="btn-group">
+                    <a href="#contact" class="btn btn-primary">Get in touch</a>
+                    <a href="#about" class="btn btn-outline">Learn more</a>
+                </div>
+            </div>
+            
+            <!-- Terminal Card -->
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="dot dot-red"></div>
+                    <div class="dot dot-yellow"></div>
+                    <div class="dot dot-green"></div>
+                    <div class="terminal-title">Gaurav@portfolio: ~</div>
+                </div>
+                <div class="terminal-body">
+                    <span class="term-line term-comment"># whoami</span>
+                    <span class="term-line"><span class="term-key">student</span> @ BCA - 2<sup>nd</sup> - Year</span>
+                    <span class="term-line"><span class="term-key">focus</span> = [<span class="term-str">"Cyber Security"</span>, <span class="term-str">"Coding"</span>]</span>
+                    <span class="term-line"><span class="term-key">stack</span> = [<span class="term-str">"C"</span>, <span class="term-str">"Java"</span>, <span class="term-str">"JavaScript"</span>]</span>
+                    <span class="term-line"><span class="term-key">status</span>: <span class="term-val">learning_always</span></span>
+                    <span class="term-line term-comment"># cat certs.txt</span>
+                    <span class="term-line term-val">ITI · CyberSec · WebPentest</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Education Section -->
+    <section id="about">
+        <div class="section-title">
+            <p>// About me</p>
+            <h2>Education & Journey</h2>
+        </div>
+        <div class="about-grid">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="card">
+                        <span class="badge">Foundation</span>
+                        <h3>10th & 12th — UP Board</h3>
+                        <p>Completed secondary and senior secondary education from the Uttar Pradesh State Board.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="card">
+                        <span class="badge">Diploma</span>
+                        <h3>ITI — [Computer Operator & Programming Assistant]</h3>
+                        <p>Hands-on training in computer operations, programming fundamentals, and office automation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="card">
+                        <span class="badge">Specialization</span>
+                        <h3>Diploma in Cyber Security |  Web Pentesting</h3>
+                        <p>Focused study on network security, threat analysis, and defensive security practices.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="card">
+                        <span class="badge">Currently Pursuing</span>
+                        <h3>BCA — 2<sup>nd</sup> Year</h3>
+                        <p>Bachelor of Computer Applications — building strong foundations in software & systems.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="section-title">
+                    <p>// Certifications</p>
+                    <h2>Achievements</h2>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-icon">🏆</div>
+                    <div>
+                        <h3>ITI Certification</h3>
+                        <p>Computer Operator & Programming Assistant</p>
+                    </div>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-icon">🛡️</div>
+                    <div>
+                        <h3>Cyber Security</h3>
+                        <p>Defensive security & network protection</p>
+                    </div>
+                </div>
+                <div class="card cert-card">
+                    <div class="cert-icon">🔓</div>
+                    <div>
+                        <h3>Web Pentesting</h3>
+                        <p>Web application security testing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-title">
+            <p>// Skills & expertise</p>
+            <h2>What I Work With</h2>
+        </div>
+        
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name">C Programming</span>
+                    <span class="skill-percent">94%</span>
+                </div>
+                <div class="progress-bg">
+                    <div class="progress-bar" data-width="94%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name"><span></span> Data Structures in C</span>
+                    <span class="skill-percent">92%</span>
+                </div>
+                <div class="progress-bg">
+                    <div class="progress-bar" data-width="92%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name">Java Programming</span>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-bg">
+                    <div class="progress-bar" data-width="90%"></div>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name">HTML + CSS + JavaScript</span>
+                    <span class="skill-percent">96%</span>
+                </div>
+                <div class="progress-bg">
+                    <div class="progress-bar" data-width="96%"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tags">
+            <span class="tag-item">Problem Solving</span>
+            <span class="tag-item">Command-Line(Bash, CLI, GUI)</span>
+             <span class="tag-item">Linux Administration</span>
+             <span class="tag-item">Frontend Development</span>
+             <span class="tag-item">Operation Systems</span>
+            <span class="tag-item">Logical Thinking</span>
+            <span class="tag-item">Cyber Security</span>
+            <span class="tag-item">Web Pentesting</span>
+            <span class="tag-item">Debugging</span>
+            <span class="tag-item">Networking</span>
+            <span class="tag-item">Cloud Computing</span>
+             <span class="tag-item">Operating Systems [ Windows |  Linux ]</span>
+             
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-title">
+            <p>// Let's Connect</p>
+            <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-box">
+            <!-- Text wrapped inside a separate div so it never overlaps with icons -->
+            <div class="contact-text">
+                
+                <a href="mailto:gaurav.chandra@example.com" class="email-link">chandra04g@example.com</a>
+            </div>
+            
+            <!-- Icons Container -->
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank" class="social-btn" title="Instagram">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zm0 1.62c-3.15 0-3.5.01-4.74.07-1.14.05-1.76.24-2.17.4-.55.21-.94.47-1.35.88-.41.41-.67.8-.88 1.35-.16.41-.35 1.03-.4 2.17-.06 1.24-.07 1.59-.07 4.74s.01 3.5.07 4.74c.05 1.14.24 1.76.4 2.17.21.55.47.94.88 1.35.41.41.8.67 1.35.88.41.16 1.03.35 2.17.4 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c1.14-.05 1.76-.24 2.17-.4.55-.21.94-.47 1.35-.88.41-.41.67-.8.88-1.35.16-.41.35-1.03.4-2.17.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.05-1.14-.24-1.76-.4-2.17a3.6 3.6 0 0 0-.88-1.35 3.6 3.6 0 0 0-1.35-.88c-.41-.16-1.03-.35-2.17-.4-1.24-.06-1.59-.07-4.74-.07zm0 2.76a5.46 5.46 0 1 1 0 10.92 5.46 5.46 0 0 1 0-10.92zm0 9a3.54 3.54 0 1 0 0-7.08 3.54 3.54 0 0 0 0 7.08zm6.95-9.22a1.27 1.27 0 1 1-2.55 0 1.27 1.27 0 0 1 2.55 0z" /></svg>
+                </a>
+                <a href="https://wa.me/" target="_blank" class="social-btn" title="WhatsApp">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.66.15-.2.3-.76.97-.94 1.17-.17.2-.34.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.34.44-.51.15-.17.2-.29.3-.49.1-.2.05-.37-.02-.52-.08-.15-.66-1.6-.9-2.19-.24-.57-.48-.5-.66-.5-.17 0-.37-.02-.56-.02-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47 0 1.46 1.06 2.87 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.28.17-1.41-.07-.13-.27-.2-.57-.35zM12 2a10 10 0 0 0-8.6 15.06L2 22l5.06-1.33A10 10 0 1 0 12 2zm0 18.13a8.13 8.13 0 0 1-4.14-1.13l-.3-.18-3 .79.8-2.93-.19-.3A8.13 8.13 0 1 1 12 20.13z" /></svg>
+                </a>
+                <a href="https://t.me/" target="_blank" class="social-btn" title="Telegram">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.94 4.6l-3.3 15.56c-.25 1.1-.9 1.38-1.84.86l-5.1-3.76-2.46 2.37c-.27.27-.5.5-1.02.5l.36-5.2 9.46-8.55c.41-.37-.09-.57-.64-.2L5.06 13.6.2 12.07c-1.06-.33-1.08-1.06.22-1.57L20.57 3.1c.88-.33 1.65.2 1.37 1.5z" /></svg>
+                </a>
+                <a href="https://github.com/" target="_blank" class="social-btn" title="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05a9.36 9.36 0 0 1 5 0c1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z" /></svg>
+                </a>
+                <a href="https://linkedin.com/" target="_blank" class="social-btn" title="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z" /></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Built with <span>♥</span> by Gaurav Chandra</p>
+        <p>&copy; 2026 · BCA 2<sup>nd</sup> Year · Cyber Security · Programmer · Web Development</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
