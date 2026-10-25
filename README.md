@@ -40,7 +40,7 @@ My-Portfolio/
 
 ## 👨‍💻 Author
 
-**Gaurav Chandar**
+**Gaurav Chandra**
 
 GitHub: https://github.com/coodingopscli
 
