@@ -1,17 +1,17 @@
 // Typing Animation Script
 const roles =  [
-     "🤖 AI Engineer",
-     "⚡ Web Pentester",
-     "🌐 Network Security Analyst",
-     "🔐 Cyber Security Enthusiast",
-     "🛡️ Ethical Hacker",
-     "🎯 Penetration Tester",
-     "💻 Frontend Developer",
-     "🚀 Full Stack Developer",
-     "🐍 C / Java / Python",
-     "🧠 AI & Machine Learning Enthusiast",
-     "⚙️ Software Developer",
-     "🏆 Aspiring Security Researcher"
+  "🤖 AI Engineer",
+  "⚡ Web Pentester",
+  "🌐 Network Security Analyst",
+  "🔐 Cyber Security Enthusiast",
+  "🛡️ Ethical Hacker",
+  "🎯 Penetration Tester",
+  "💻 Frontend Developer",
+  "🚀 Full Stack Developer",
+  "🐍 C / Java / Python",
+  "🧠 AI & Machine Learning Enthusiast",
+  "⚙️ Software Developer",
+  "🏆 Aspiring Security Researcher"
 ];
 
 let roleIdx = 0;
